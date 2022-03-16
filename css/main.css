@@ -1,0 +1,404 @@
+.navbar {
+  background: linear-gradient(
+    to right,
+    white 0%,
+    white 50%,
+    #eef3fa 50%,
+    #eef3fa 100%
+  );
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  padding: 10px 50px;
+}
+
+.navbar-txt {
+  color: #3269d9;
+  font-size: 1.9em;
+  font-weight: 700;
+  padding-left: 10%;
+}
+
+.nav-link {
+  font-size: 1em;
+  font-weight: 600;
+  color: #6d7b93;
+  align-self: center;
+  align-content: space-between;
+  padding-left: 3%;
+  padding-right: 3%;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.container-info .container-info2 {
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-left: 2%;
+  margin-right: 0%;
+}
+
+.titulo {
+  color: #1f3e72;
+  font-size: 60px;
+  font-weight: 700;
+  margin-top: 25%;
+  margin-left: 15%;
+  margin-right: 20%;
+}
+
+.info-cont {
+  font-size: 1.1em;
+  font-weight: 500;
+  color: #6d7b93;
+  padding-top: 4%;
+  padding-left: 5%;
+  padding-right: 10%;
+  margin-left: 10%;
+  margin-right: 20%;
+}
+
+.iconos {
+  padding-top: 4%;
+  padding-left: 5%;
+  padding-right: 10%;
+  margin-left: 10%;
+  margin-right: 20%;
+}
+
+.icon-desc {
+  display: inline-block;
+  color: #47608b;
+  font-weight: 500;
+}
+
+.bi-icon {
+  display: inline-block;
+  background-color: #fff7d8;
+  color: #ffcf10;
+  font-size: 15px;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.icon-desc2 {
+  display: inline-block;
+  color: #47608b;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.bi-icon2 {
+  display: inline-block;
+  background-color: #dce4fe;
+  color: #2949c7;
+  font-size: 20px;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  border-radius: 4px;
+  text-align: center;
+  margin-top: 15%;
+}
+
+.card-box {
+  display: grid;
+  background-color: #eef3fa;
+  opacity: 90%;
+  position: absolute;
+  top: 670px;
+  left: 200px;
+  width: 800px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.43);
+}
+.btn-box {
+  background-color: #2949c7;
+  color: #ffffff;
+  font-weight: 500;
+  margin-left: 50px;
+}
+
+.btn-box:hover {
+  background-color: #dce4fe;
+  color: #2949c7;
+  font-weight: 500;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.43);
+}
+
+.bi-icon-card {
+  display: inline-block;
+  background-color: #dce4fe;
+  color: #2949c7;
+  font-size: 20px;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.icon-card-desc {
+  display: inline-block;
+  color: #47608b;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.desc-card {
+  font-size: 22px;
+  color: #244275;
+}
+
+.container-img {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+
+.container-img img {
+  width: 101%;
+  height: 100%;
+}
+
+.card-logo {
+  filter: grayscale();
+  opacity: 15%;
+}
+
+.card-logo:hover {
+  filter: none;
+  opacity: 100%;
+  transition: 0.2;
+}
+
+.titulo2 {
+  color: #1f3e72;
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 5%;
+  margin-left: 8%;
+  margin-right: 20%;
+}
+
+.desc-info2 {
+  font-size: 1.1em;
+  font-weight: 400;
+  color: #6d7b93;
+  margin-left: 8%;
+  margin-right: 20%;
+}
+
+.container-card {
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 20px;
+}
+
+.card:hover {
+  cursor: pointer;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.43);
+}
+
+.card:active {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.43);
+}
+
+.card {
+  border-radius: 10px;
+  border-color: #eef3fa;
+}
+
+.card h5 {
+  margin-top: auto;
+  font-size: 22px;
+  font-weight: bold;
+  margin: 20px;
+  color: #47608b;
+}
+
+.txt-card-info {
+  margin: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #6d7b93;
+}
+
+.fa-icon-card {
+  display: inline-block;
+  background-color: #dce4fe;
+  color: #2949c7;
+  font-size: 25px;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  margin: 20px;
+  margin-top: auto;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.container-img2 {
+  margin-top: 16%;
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+
+.container-img2 img {
+  width: 101%;
+  height: 100%;
+}
+
+.container-info3 {
+  padding-left: 10%;
+
+  margin-left: 2%;
+}
+
+.titulo3 {
+  color: #1f3e72;
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 15%;
+  margin-left: 50px;
+}
+
+.info-cont3 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #6d7b93;
+  margin-left: 50px;
+  margin-right: 100px;
+}
+
+.acordeon {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  width: 70%;
+  margin-top: 100px;
+  margin-left: 80px;
+  margin-right: 100px;
+  border-color: gray;
+}
+
+.icon-acordion {
+  display: inline-block;
+  font-size: 14px;
+  background-color: #dce4fe;
+  color: #2949c7;
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  line-height: 30px !important;
+  text-align: center;
+}
+
+.txt-accordion-title {
+  color: #6d7b93;
+  font-weight: 500;
+}
+
+.txt-accordion {
+  color: #6d7b93;
+  font-weight: 600;
+}
+
+.card-info {
+  flex-wrap: wrap;
+  margin-left: 50px;
+  margin-right: 50px;
+  width: 600px;
+  height: 170px;
+  align-items: center;
+}
+
+.txt-contact {
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 30px;
+  font-weight: 500;
+  color: #1f3e72;
+}
+
+.sub-contact {
+  margin-left: 97px;
+  margin-top: -30px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #6d7b93;
+  align-items: center;
+}
+
+.fa-icon-card2 {
+  display: inline-block;
+  background-color: #dce4fe;
+  color: #2949c7;
+  font-size: 25px;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  margin: 20px;
+  margin-top: 10px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.boton {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.btn-color {
+  background-color: #dce4fe;
+  color: #2949c7;
+  font-weight: 500;
+}
+
+.btn-color:hover {
+  background-color: #2949c7;
+  color: #ffffff;
+  font-weight: 500;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.43);
+}
+
+.footer-txt {
+  color: #3269d9;
+  font-size: 1.9em;
+  font-weight: 700;
+  padding-left: 55px;
+}
+
+.bg-footer {
+  background-color: #eef3ff;
+}
+
+.f-txt-desc {
+  padding-left: 55px;
+  margin-right: 300px;
+  margin-top: -10px;
+}
+
+.f-txt-copy {
+  padding-left: 55px;
+  margin-right: 300px;
+}
+
+.f-txt-copy2 {
+  display: inline-block;
+}
+
+.txt-footer {
+  color: #6d7b93;
+  font-weight: 500;
+}
+
+.title-footer {
+  color: #2949c7;
+  font-weight: 700;
+}
